@@ -36,7 +36,7 @@ TColor has 3 main functions,
 - markup ; what markups to use on the text (see bellow)
 - highlight ; color to highlight the text with
 
-**pcolor** being same as prgb but instead of a rgb parameter it takes a color (see bellow for accepted ones)
+**pcolor** being same as prgb but instead of a rgb parameter it takes a color in form of a string (see bellow for accepted ones)
 
 # List of accepted values
 
