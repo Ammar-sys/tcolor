@@ -10,12 +10,12 @@ This is a simple package to print colored messages using ASCI to the terminal bu
 
 To install this package use, 
 ```
-pip install tcolor
+pip install tercolor
 ```
 
 Usage of it is pretty straight-forward,
 ```py
-from tcolor import prgb, pcolor, prainbow
+from tercolor import prgb, pcolor, prainbow
 
 print(prainbow('Hello'))
 print(prgb('World', rgb=[255, 0, 0]))
