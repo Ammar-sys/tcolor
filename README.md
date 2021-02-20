@@ -1,4 +1,4 @@
-# TERColor
+# TColor
 
 ![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)
 
@@ -6,23 +6,23 @@
 
 This is a simple package to print colored messages using ASCI to the terminal built with python 3.
 
-# Usage of TERColor
+# Usage of TColor
 
 To install this package use, 
 ```
-pip install tercolor
+pip install pip install -i https://test.pypi.org/simple/ tcolor==1.0.0
 ```
 
 Usage of it is pretty straight-forward,
 ```py
-from tercolor import prgb, pcolor, prainbow
+from tcolor import prgb, pcolor, prainbow
 
 print(prainbow('Hello'))
 print(prgb('World', rgb=[255, 0, 0]))
 print(pcolor('!', 'black'))
 ```
 
-TERColor has 3 main functions, 
+TColor has 3 main functions, 
 - prainbow 
 - prgb 
 - pcolor
@@ -36,7 +36,7 @@ TERColor has 3 main functions,
 - markup ; what markups to use on the text (see bellow)
 - highlight ; color to highlight the text with
 
-**pcolor** being same as prgb but instead of a rgb parameter it takes a color in form of a string (see bellow for accepted ones)
+**pcolor** being same as prgb but instead of a rgb parameter it takes a color (see bellow for accepted ones)
 
 # List of accepted values
 
